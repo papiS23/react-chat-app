@@ -23,7 +23,7 @@ const SendMessage = () => {
   };
 
   return (
-    <form className="send-message">
+    <form className="send-message" onSubmit={(event) => sendMessage(event)}>
       <label htmlFor="messageInput" hidden>
         Enter Message
       </label>

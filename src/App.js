@@ -25,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+//TODO: finished here (Going into our Message component, let's render the data passed into it in our browser.)(ctrl + f), fix the problem with invalid data from SendMessage.js:23
